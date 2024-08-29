@@ -1,16 +1,42 @@
-## Movie Seat Booking
+# Movie Seat Booking
 
-Display movie choices and seats in a theater to select from in order to purchase tickets
+Movie seat booking application is built to showcase a process of selecting movie and seats in a theater in order to purchase tickets.
 
-## Project Specifications
+👉🏻 [Live Demo](https://janeund.github.io/movie-booking/)
 
-- Display UI with movie select, screen, seats, legend & seat info
-- User can select a movie/price
-- User can select/deselect seats
-- User can not select occupied seats
-- Number of seats and price will update
-- Save seats, movie and price to local storage so that UI is still populated on refresh
+## Technologies Used
 
-Design inspiration from [Dribbble](https://dribbble.com/shots/3628370-Movie-Seat-Booking)
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Vite
 
-👉🏻 [Demo](https://janeund.github.io/movie-booking/)
+## Features
+
+- Ability to select a movie with price, select and deselect seats
+- Occupied seats are blocked for picking
+- Number of seats and price update depending on options selected
+- Local storage property is used to save seats, movie and price so that UI state is still stored on refresh
+
+## Start Locally
+
+Clone repository
+
+```bash
+git clone https://github.com/janeund/movie-booking
+cd movie-booking
+
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start local server via Vite
+
+```bash
+npm start dev
+```
+
